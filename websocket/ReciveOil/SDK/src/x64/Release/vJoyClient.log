@@ -1,0 +1,14 @@
+﻿  main.cpp
+D:\myProgram\C\pro\websocket\ReciveOil\SDK\src\main.cpp(61,9): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\myProgram\C\pro\websocket\ReciveOil\SDK\src\main.cpp(164,24): warning C4838: 从“int”转换到“const char”需要收缩转换
+D:\myProgram\C\pro\websocket\ReciveOil\SDK\src\main.cpp(164,24): warning C4309: “初始化”: 截断常量值
+D:\myProgram\C\pro\websocket\ReciveOil\SDK\src\main.cpp(150,8): warning C4101: “recvbuf”: 未引用的局部变量
+D:\myProgram\C\pro\websocket\ReciveOil\SDK\src\main.cpp(154,7): warning C4101: “iMessage”: 未引用的局部变量
+D:\myProgram\C\pro\websocket\ReciveOil\SDK\src\main.cpp(151,7): warning C4101: “iSendResult”: 未引用的局部变量
+  正在生成代码
+  1 of 6 functions (16.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  vJoyClient.vcxproj -> D:\myProgram\C\pro\websocket\ReciveOil\SDK\src\x64\Release\vJoyClient.exe
+  已复制         1 个文件。

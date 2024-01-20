@@ -1,0 +1,4 @@
+﻿cl : 命令行  warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  main.cpp
+  vJoyClient.vcxproj -> D:\myProgram\C\recive_oil\ReciveOil\SDK\src\x64\Debug\vJoyClient.exe
+  已复制         1 个文件。

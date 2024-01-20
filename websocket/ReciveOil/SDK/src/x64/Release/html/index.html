@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/html">
+
+<head>
+  <meta charset="utf-8">
+  <title>controller</title>
+
+  <script type="text/javascript" src="compoment.js"></script>
+  <script type="text/javascript" src="socket.js"></script>
+  <script type="text/javascript" src="other.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="settings.css">
+  <link rel="stylesheet" type="text/css" href="bar.css">
+  <link rel="stylesheet" type="text/css" href="buttom.css">
+
+</head>
+
+<body>
+  <div class="bar" id="throttle">
+    <div class="detect"></div>
+    <div class="pos">
+      <p class="debug">0</p>
+    </div>
+  </div>
+  <div class="bar" id="zoom">
+    <div class="detect"></div>
+    <div class="pos">
+      <p class="debug">0</p>
+    </div>
+  </div>
+  <div class="switch" id="brake" state="off">
+    <div class="detect"></div>
+    <div style="margin: auto;text-align: center;">
+      brake
+    </div>
+  </div>
+
+  <div class="buttom" id="landing-gear" state="off">
+    <div class="detect"></div>
+    <div style="margin: auto;text-align: center;">
+      gear
+    </div>
+  </div>
+</body>
+
+</html>

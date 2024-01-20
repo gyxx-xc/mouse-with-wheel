@@ -1,0 +1,20 @@
+.switch {
+    position: absolute;
+}
+
+.switch[state="on"] {
+    background: #6cf;
+}
+
+.switch[state="off"] {
+    background: #a30;
+}
+
+.buttom {
+    position: absolute;
+    background: #a30;
+}
+
+.buttom[state="on"] {
+    background: #6cf;
+}

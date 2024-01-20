@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+  <head>
+    <meta charset="utf-8" />
+    <title>controller</title>
+
+    <script type="text/javascript" src="socket.js"></script>
+    <script type="text/javascript" src="other.js"></script>
+    <link rel="stylesheet" type="text/css" href="settings.css" />
+  </head>
+
+  <body>
+    <img src="./img/pilot.jpg" id="pilot" />
+    <img src="./img/Arduino_USB_Host_Shield1.webp" id="arduino" />
+    <div style="position: absolute; width: 100%; background-color: black">
+      <h1
+        style="text-align: center; margin: 10px auto; z-index: 100; color: #eee"
+      >
+        Smart Analog Controller
+      </h1>
+    </div>
+    <div id="info">
+      Air Speed: 120 /kts <br />
+      Altitude: 3000 mi<br />
+      Direction: S15°E<br />
+    </div>
+    <div class="bar" id="throttle">
+      <div class="detect"></div>
+      <div class="pos">
+        <div id="throttleT" class="title">
+          <t1>Throttle</t1>
+        </div>
+        <!-- <p class="debug">0</p> -->
+      </div>
+    </div>
+
+    <div class="bar" id="zoom">
+      <div class="detect"></div>
+      <div class="pos">
+        <!-- <p class="debug">0</p> -->
+      </div>
+      <div id="zoomT" class="title">
+        <t1>Zoom</t1>
+      </div>
+    </div>
+  </body>
+</html>

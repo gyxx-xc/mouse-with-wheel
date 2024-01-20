@@ -1,0 +1,50 @@
+html {
+    touch-action: none;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0px;
+}
+
+.detect {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: none;
+}
+
+/***********************************************/
+
+#throttle {
+    height: 80%;
+    width: 30%;
+
+    bottom: 5%;
+    left: 0%;
+}
+
+#zoom {
+    height: 40%;
+    width: 10%;
+
+    bottom: 5%;
+    left: 45%;
+}
+
+#brake {
+    height: 15vw;
+    width: 15vw;
+
+    left: 60%;
+    bottom: 5%;
+}
+
+#landing-gear {
+    height: 15vw;
+    width: 15vw;
+
+    left: 80%;
+    bottom: 5%;
+}

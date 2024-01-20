@@ -1,0 +1,13 @@
+.bar {
+    position: absolute;
+    background: #6cf;
+}
+
+.pos {
+    height: 0%;
+    background: #eee;
+}
+
+.debug {
+    margin: 0px;
+}

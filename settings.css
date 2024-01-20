@@ -1,0 +1,79 @@
+html {
+  touch-action: none;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0px;
+}
+
+.bar {
+  position: absolute;
+  background: hsl(0, 60%, 30%);
+}
+
+.pos {
+  height: 0%;
+  background: #eee;
+}
+
+.debug {
+  margin: 0px;
+}
+
+.detect {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: none;
+}
+
+.title {
+  position: absolute;
+  margin: auto;
+  width: 50%;
+  top: -5%;
+}
+
+#throttle {
+  height: 80%;
+  width: 5%;
+
+  top: 15%;
+  bottom: 10%;
+  left: 20%;
+}
+
+#zoom {
+  height: 80%;
+  width: 5%;
+
+  top: 15%;
+  bottom: 10%;
+  right: 20%;
+}
+
+#pilot {
+  position: absolute;
+  height: 100%;
+  width: 40%;
+  top: 0%;
+  left: 30%;
+}
+
+#arduino {
+  position: absolute;
+  height: 25%;
+  bottom: 60%;
+  right: 2%;
+}
+
+#info {
+  left: 2%;
+  position: absolute;
+  top: 10%;
+  background-color: rgb(0, 0, 0);
+  font-size: 17px;
+  color: #00ff00;
+}
